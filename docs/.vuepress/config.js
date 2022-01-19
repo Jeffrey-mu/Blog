@@ -1,3 +1,10 @@
+/*
+ * @Author: WangJiaFeng
+ * @Date: 2021-12-31 09:21:26
+ * @LastEditTime: 2022-01-19 10:46:49
+ * @Description: file content
+ * @FilePath: \vuepress-starter\docs\.vuepress\config.js
+ */
 module.exports = {
     base: '/Blog',
     title: '王佳峰个人博客',
@@ -23,14 +30,24 @@ module.exports = {
                         path: "/static/web/JavaScript/",
                         collapsable: false, // 不折叠
                         children: [{
-                            title: "Es6-let 和 const 命令",
-                            path: "/static/web/JavaScript/letorconst",
-                            collapsable: false, // 不折叠
-                        }, {
-                            title: "Object.freeze()",
-                            path: "/static/web/JavaScript/Object.freeze",
-                            collapsable: false, // 不折叠
-                        }, ]
+                                title: "Array",
+                                path: "/static/web/JavaScript/Array/prototype",
+                                children: [{
+                                    title: "数组原型方法",
+                                    path: "/static/web/JavaScript/Array/prototype",
+                                    collapsable: false, // 不折叠
+                                }]
+                            },
+                            {
+                                title: "Es6-let 和 const 命令",
+                                path: "/static/web/JavaScript/letorconst",
+                                collapsable: false, // 不折叠
+                            }, {
+                                title: "Object.freeze()",
+                                path: "/static/web/JavaScript/Object.freeze",
+                                collapsable: false, // 不折叠
+                            },
+                        ]
                     },
                     {
                         title: "TypeScript",
