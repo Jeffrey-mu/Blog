@@ -1,7 +1,7 @@
 /*
  * @Author: WangJiaFeng
  * @Date: 2021-12-31 09:21:26
- * @LastEditTime: 2022-02-16 17:23:52
+ * @LastEditTime: 2022-02-16 17:56:27
  * @Description: file content
  * @FilePath: \Blog\docs\.vuepress\config.js
  */
@@ -27,13 +27,23 @@ module.exports = {
             collapsable: false, // 不折叠
             children: [
                 {
-                    
+
                 }
             ]
         }, {
             title: 'CSS3',
             path: '/static/CSS3/',
-            collapsable: false, // 不折叠
+            collapsable: true, // 不折叠
+            children: [
+                {
+                    title: 'CSS3简介',
+                    path: '/static/CSS3/briefIntroduction',
+                },
+                {
+                    title: 'CSS3边框',
+                    path: '/static/CSS3/border',
+                }
+            ]
         }, {
             title: 'JavaScript',
             path: '/static/JavaScript/',

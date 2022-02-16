@@ -2,14 +2,13 @@
 ###
  # @Author: WangJiaFeng
  # @Date: 2021-12-31 09:37:37
- # @LastEditTime: 2022-02-16 17:25:16
+ # @LastEditTime: 2022-02-16 17:28:58
  # @Description: file content
  # @FilePath: \Blog\deploy.sh
 ### 
 
 # 确保脚本抛出遇到的错误
 set -e
-
 # 生成静态文件
 npm run docs:build
 
