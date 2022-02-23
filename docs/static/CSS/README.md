@@ -6,3 +6,11 @@
  * @FilePath: \Blog\docs\static\HTML5\README.md
 -->
 ### 欢迎HTML5
+---
+title: Blogging Like a Hacker
+lang: en-US
+---
+
+:tada: :100:
+
+[[toc]]
