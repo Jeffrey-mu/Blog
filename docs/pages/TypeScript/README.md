@@ -5,4 +5,5 @@
  * @Description: file content
  * @FilePath: \Blog\docs\static\TypeScript\README.md
 -->
-### 欢迎TypeScript
+# 欢迎TypeScript
+<iframe src="https://zh.wikipedia.org/wiki/TypeScript" width="800" height="500" frameborder="0"></iframe>

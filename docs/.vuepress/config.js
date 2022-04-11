@@ -26,6 +26,9 @@ module.exports = {
             text: 'JavaScript',
             link: '/pages/JavaScript/'
         }, {
+            text: 'Note',
+            link: '/pages/Note/'
+        }, {
             text: 'Nodejs',
             link: '/pages/Nodejs/'
         }, {
@@ -35,20 +38,24 @@ module.exports = {
         ],
         sidebar: {//左侧列表
             '/pages/HTML/': [
-                ''
+                {
+                    title: 'HTML',
+                    collapsable: true,
+                    children: ['001', '002', '003']
+                },
             ],
             '/pages/CSS/': [
                 {
                     title: 'CSS',
                     collapsable: true,
-                    children: ['001', '002']
+                    children: ['001', '002', '003', '004', '005']
                 },
             ],
             '/pages/JavaScript/': [
                 {
                     title: 'JavaScript',
                     collapsable: true,
-                    children: ['009']
+                    children: ['009', '010', '011']
                 },
             ],
             '/pages/Nodejs/': [
@@ -62,6 +69,14 @@ module.exports = {
                 {
                     title: 'TypeScript ',
                     collapsable: true,
+                    children: ['001']
+                }
+            ],
+            '/pages/Note/': [
+                {
+                    title: 'Note ',
+                    collapsable: true,
+                    children: ['001']
                 }
             ],
             '/': [] //不能放在数组第一个，否则会导致右侧栏无法使用 
