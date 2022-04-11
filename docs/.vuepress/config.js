@@ -41,7 +41,7 @@ module.exports = {
                 {
                     title: 'HTML',
                     collapsable: true,
-                    children: ['001', '002', '003']
+                    children: ['001', '002', '003', '004']
                 },
             ],
             '/pages/CSS/': [
@@ -55,14 +55,14 @@ module.exports = {
                 {
                     title: 'JavaScript',
                     collapsable: true,
-                    children: ['009', '010', '011']
+                    children: [ '013', '009', '010', '011', '012',]
                 },
             ],
             '/pages/Nodejs/': [
                 {
                     title: 'Nodejs ',
                     collapsable: true,
-                    children: ['001', '002', '003', '004']
+                    children: ['006', '001', '002', '003', '004']
                 }
             ],
             '/pages/TypeScript/': [
