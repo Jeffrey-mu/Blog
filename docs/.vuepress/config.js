@@ -13,6 +13,7 @@ module.exports = {
     themeConfig: {
         sidebarDepth: 6,
         displayAllHeaders: true, // 默认值：false
+        lastUpdated: '上次更新', // string | boolean
         nav: [{
             text: '首页',
             link: '/'
@@ -55,7 +56,7 @@ module.exports = {
                 {
                     title: 'JavaScript',
                     collapsable: true,
-                    children: [ '013', '009', '010', '011', '012',]
+                    children: [ '013', '009', '010', '011', '012', '014']
                 },
             ],
             '/pages/Nodejs/': [
@@ -76,7 +77,7 @@ module.exports = {
                 {
                     title: 'Note ',
                     collapsable: true,
-                    children: ['001']
+                    children: ['001', '003']
                 }
             ],
             '/': [] //不能放在数组第一个，否则会导致右侧栏无法使用 
