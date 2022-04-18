@@ -30,6 +30,9 @@ module.exports = {
             text: 'Note',
             link: '/pages/Note/'
         }, {
+            text: 'Python',
+            link: '/pages/Python/'
+        }, {
             text: 'Nodejs',
             link: '/pages/Nodejs/'
         }, {
@@ -70,7 +73,7 @@ module.exports = {
                 {
                     title: 'Python ',
                     collapsable: true,
-                    children: ['001',]
+                    children: ['001', '002']
                 }
             ],
             '/pages/TypeScript/': [
@@ -84,7 +87,7 @@ module.exports = {
                 {
                     title: 'Note ',
                     collapsable: true,
-                    children: ['001', '003']
+                    children: ['001', '003', '004']
                 }
             ],
             '/': [] //不能放在数组第一个，否则会导致右侧栏无法使用 
