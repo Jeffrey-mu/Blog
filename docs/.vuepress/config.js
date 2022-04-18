@@ -1,6 +1,6 @@
 module.exports = {
     base: '/',
-    title: 'JiaFengFmc个人博客',
+    title: 'Jeffrey个人博客',
     head: [
         ['link', {
             rel: 'shortcut icon',
@@ -9,7 +9,7 @@ module.exports = {
         }]
     ],
     plugins: [['vuepress-plugin-code-copy', true]],
-    description: 'JiaFengFmc个人博客-技术积累',
+    description: 'Jeffrey个人博客-技术积累',
     themeConfig: {
         sidebarDepth: 6,
         displayAllHeaders: true, // 默认值：false
@@ -49,14 +49,14 @@ module.exports = {
                 {
                     title: 'CSS',
                     collapsable: true,
-                    children: ['001', '002', '003', '004', '005']
+                    children: ['001', '002', '003', '004', '005', '006']
                 },
             ],
             '/pages/JavaScript/': [
                 {
                     title: 'JavaScript',
                     collapsable: true,
-                    children: [ '013', '009', '010', '011', '012', '014']
+                    children: [ '013', '009', '010', '011', '012', '014', '015']
                 },
             ],
             '/pages/Nodejs/': [
@@ -64,6 +64,13 @@ module.exports = {
                     title: 'Nodejs ',
                     collapsable: true,
                     children: ['006', '001', '002', '003', '004']
+                }
+            ],
+            '/pages/Python/': [
+                {
+                    title: 'Python ',
+                    collapsable: true,
+                    children: ['001',]
                 }
             ],
             '/pages/TypeScript/': [
