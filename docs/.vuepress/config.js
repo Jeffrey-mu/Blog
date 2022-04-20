@@ -87,7 +87,7 @@ module.exports = {
                 {
                     title: 'Note ',
                     collapsable: true,
-                    children: ['001', '003', '004']
+                    children: ['001', '003', '004', '005']
                 }
             ],
             '/': [] //不能放在数组第一个，否则会导致右侧栏无法使用 
