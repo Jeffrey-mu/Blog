@@ -66,7 +66,7 @@ module.exports = {
                 {
                     title: 'Nodejs ',
                     collapsable: true,
-                    children: ['006', '001', '002', '003', '004']
+                    children: ['006', '001', '002', '003', '004', '007']
                 }
             ],
             '/pages/Python/': [
