@@ -1,3 +1,5 @@
+const items = require('../config/nav.json')
+const sidebar = require('../config/pages.json')
 module.exports = {
     base: '/',
     title: 'Jeffrey Blog',
@@ -14,7 +16,7 @@ module.exports = {
     plugins: [['vuepress-plugin-code-copy', true], '@vuepress/back-to-top', ['@vuepress/search', {
         searchMaxSuggestions: 10
     }], '@vuepress/nprogress'],
-    description: 'Jeffrey个人博客-技术积累',
+    description: 'Jeffrey技术笔记',
     theme: 'vuepress-theme-yilia-plus',
     themeConfig: {
         yilia_plus: {
@@ -43,27 +45,7 @@ module.exports = {
         }, {
             text: '技术笔记',
             link: '/pages/HTML/',
-            items: [{
-                text: 'Note',
-                link: '/pages/Note/'
-            },
-            {
-                text: 'CSS',
-                link: '/pages/CSS/'
-            }, {
-                text: 'JavaScript',
-                link: '/pages/JavaScript/'
-            }, {
-                text: 'TypeScript',
-                link: '/pages/TypeScript/'
-            }, {
-                text: 'Python',
-                link: '/pages/Python/'
-            }, {
-                text: 'Nodejs',
-                link: '/pages/Nodejs/'
-            }
-            ]
+            items
         }, {
             text: '关于我',
             link: '/pages/author/'
@@ -72,63 +54,7 @@ module.exports = {
             link: 'https://github.com/Jeffrey-mu/Blog'
         }
         ],
-        sidebar: {//左侧列表
-            '/pages/HTML/': [
-                {
-                    title: 'HTML',
-                    collapsable: true,
-                    children: ['001', '002', '003', '004']
-                },
-            ],
-            '/pages/CSS/': [
-                {
-                    title: 'CSS',
-                    collapsable: true,
-                    children: ['001', '002', '003', '004', '005', '006']
-                },
-            ],
-            '/pages/JavaScript/': [
-                {
-                    title: 'JavaScript',
-                    collapsable: true,
-                    children: ['013', '009', '010', '011', '012', '014', '015']
-                },
-                {
-                    title: 'TypeScript ',
-                    collapsable: true,
-                    children: ['001']
-                }
-            ],
-            '/pages/TypeScript/': [
-                {
-                    title: 'TypeScript ',
-                    collapsable: true,
-                    children: ['001']
-                }
-            ],
-            '/pages/Nodejs/': [
-                {
-                    title: 'Nodejs ',
-                    collapsable: true,
-                    children: ['010', '011', '012', '013', '014', '006', '001', '002', '003', '004', '007', '008', '009', '015']
-                },
-            ],
-            '/pages/Python/': [
-                {
-                    title: 'Python ',
-                    collapsable: true,
-                    children: ['001', '002']
-                }
-            ],
-            '/pages/Note/': [
-                {
-                    title: 'Note ',
-                    collapsable: true,
-                    children: ['001', '003', '004', '005', '006']
-                }
-            ],
-            '/': [] //不能放在数组第一个，否则会导致右侧栏无法使用 
-        }
+        sidebar: sidebar
     },
 
 }

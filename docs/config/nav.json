@@ -1,0 +1,38 @@
+[
+    {
+        "text": "CSS",
+        "link": "/pages/CSS/"
+    },
+    {
+        "text": "HTML",
+        "link": "/pages/HTML/"
+    },
+    {
+        "text": "JavaScript",
+        "link": "/pages/JavaScript/"
+    },
+    {
+        "text": "Nginx",
+        "link": "/pages/Nginx/"
+    },
+    {
+        "text": "Nodejs",
+        "link": "/pages/Nodejs/"
+    },
+    {
+        "text": "Note",
+        "link": "/pages/Note/"
+    },
+    {
+        "text": "Python",
+        "link": "/pages/Python/"
+    },
+    {
+        "text": "TypeScript",
+        "link": "/pages/TypeScript/"
+    },
+    {
+        "text": "author",
+        "link": "/pages/author/"
+    }
+]
