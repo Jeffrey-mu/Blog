@@ -7,18 +7,27 @@ module.exports = {
         ['link', {
             rel: 'shortcut icon',
             type: "image/x-icon",
-            href: `./favicon.ico`
+            href: `/favicon.ico`
         }]
     ],
     markdown: {
-        lineNumbers: true
+        lineNumbers: true,
+        linkify:true
     },
     plugins: [['vuepress-plugin-code-copy', true], '@vuepress/back-to-top', ['@vuepress/search', {
         searchMaxSuggestions: 10
-    }], '@vuepress/nprogress'],
+    }], '@vuepress/nprogress',[ '@vuepress/active-header-links', {
+        sidebarLinkSelector: '.sidebar-link',
+        headerAnchorSelector: '.header-anchor'
+      }]],
     description: 'Jeffrey技术笔记',
     theme: 'vuepress-theme-yilia-plus',
     themeConfig: {
+        contributors: false,
+        contributorsText: '贡献者',
+        lastUpdatedText: '上次更新',
+        notFound: ['这就戳碰到我知识的盲点了'],
+        editLinkText: "编辑页面",
         yilia_plus: {
             // github-corner(关闭请设置为false)
             github: {
@@ -43,6 +52,19 @@ module.exports = {
             text: '主页',
             link: '/'
         }, {
+            text: '工具',
+            link: '/',
+            items: [
+                { text: '正则可视化', link: "https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24" },
+                { text: '时间轴工具', link: "https://time.graphics/editor" },
+                { text: '扁平配图unDraw', link: "https://undraw.co/illustrations" },
+                { text: '创客贴做海报', link: "https://www.chuangkit.com/" },
+                { text: "正则表达式", link: "https://any86.github.io/any-rule/" },
+                { text: '图片清除背景', link: "https://remove.bg/" },
+                { text: '小徽章', link: "https://shields.io/" },
+                { text: '数据结构/算法动态可视化', link: "https://visualgo.net/zh" },
+                { text: 'AST Explorer', link: "https://astexplorer.net/" },]
+        }, {
             text: '技术笔记',
             link: '/pages/HTML/',
             items
@@ -54,7 +76,7 @@ module.exports = {
             link: 'https://github.com/Jeffrey-mu/Blog'
         }
         ],
-        sidebar: sidebar
+        sidebar
     },
 
 }
