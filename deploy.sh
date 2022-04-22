@@ -25,5 +25,5 @@ git commit -m 'deploy'
 # github user
 git push -f git@github.com:jeffrey-mu/Blog.git master:gh-pages
 # gitee user
-# git push -f git@gitee.com:jiafeng-wang/blog.git master:gh-pages
+# git push -f git@gitee.com:Jeffrey-mu/blog.git master:gh-pages
 cd -
