@@ -16,4 +16,4 @@
 
 | 微信 |
 | :---: | 
-| ![](../../../docs/.vuepress/image/author.png) | 
+| ![](/image/author.png) | 
