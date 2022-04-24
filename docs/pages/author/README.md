@@ -10,7 +10,7 @@
 - `ECharts` `高德SDK`
 - `TypeSCript` `Babel` `Vite` `ES6` `Webpack` `Esbuild` `jQuery` `Webpack` `Lodash`
 - `git` `svn` `jenkins`
-- `Nodejs` `Java` `Golang` `Maven` `Mysql`
+- `Nodejs` `Java` `Golang` `Maven` `Mysql` `Linux`
 - `puppeteer` `nightmare`
 ## 联系方式
 
