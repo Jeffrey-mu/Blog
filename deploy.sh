@@ -9,6 +9,8 @@
 
 # 确保脚本抛出遇到的错误
 set -e
+# 生成配置目录
+npm run config
 # 生成静态文件
 npm run build
 
@@ -21,7 +23,7 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # github user
-git push -f git@github.com:jiafengfmc/Blog.git master:gh-pages
+git push -f git@github.com:jeffrey-mu/Blog.git master:gh-pages
 # gitee user
-# git push -f git@gitee.com:jiafeng-wang/blog.git master:gh-pages
+# git push -f git@gitee.com:Jeffrey-mu/blog.git master:gh-pages
 cd -
