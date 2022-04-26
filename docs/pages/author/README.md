@@ -2,6 +2,7 @@
 # 关于我
 ## I'm Jeffrey
 
+>The best time to plant a tree was 10 years ago.The second best time is now!
 ## 🛠 技术栈 | Tech Stack
 
 - `HTML` `CSS` `JavaScript`

@@ -2,7 +2,7 @@
 home: true
 heroImage: https://img0.baidu.com/it/u=985192759,2265250910&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=333
 heroText: 
-features:
+features: 
 - title: 一致性 Consistency
   details: 与现实生活一致：与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念
 - title: 反馈 Feedback
