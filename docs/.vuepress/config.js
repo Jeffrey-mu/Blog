@@ -46,7 +46,7 @@ module.exports = {
             }
         },
         sidebarDepth: 6,
-        displayAllHeaders: false, // 默认值：false
+        displayAllHeaders: true, // 默认值：false
         lastUpdated: '上次更新', // string | boolean
         nav: [{
             text: '主页',
