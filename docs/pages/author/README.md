@@ -9,7 +9,7 @@
 - `Vue2` `Vue3` `React` `Uni-app` `微信小程序` `Express` `Electron` `Vuepress`
 - `Element-plus / ui` `Ant Design` `Uview` `Vant` `Bootstrap` `DataV`
 - `ECharts` `高德SDK`
-- `TypeSCript` `Babel` `Vite` `ES6` `Webpack` `Esbuild` `jQuery` `Webpack` `Lodash`
+- `TypeSCript` `Babel` `Vite` `ES6` `Webpack` `Esbuild` `jQuery` `Webpack` `Lodash`  `Rollup`
 - `git` `svn` `jenkins`
 - `Nodejs` `Java` `Golang` `Maven` `Mysql` `Linux`
 - `puppeteer` `nightmare`
@@ -17,4 +17,4 @@
 
 | 微信 |
 | :---: | 
-| ![](/image/author.png) | 
+|<img src="/image/author.jpg" style="width:300px;height:400px"/>| 

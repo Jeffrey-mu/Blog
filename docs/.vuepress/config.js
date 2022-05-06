@@ -23,7 +23,7 @@ module.exports = {
     description: 'Jeffrey技术笔记',
     theme: 'vuepress-theme-yilia-plus',
     themeConfig: {
-        contributors: false,
+        contributors: true,
         contributorsText: '贡献者',
         lastUpdatedText: '上次更新',
         notFound: ['这就戳碰到我知识的盲点了'],
@@ -46,7 +46,7 @@ module.exports = {
             }
         },
         sidebarDepth: 6,
-        displayAllHeaders: true, // 默认值：false
+        displayAllHeaders: false, // 默认值：false
         lastUpdated: '上次更新', // string | boolean
         nav: [{
             text: '主页',
