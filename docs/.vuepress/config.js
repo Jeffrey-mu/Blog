@@ -23,6 +23,9 @@ module.exports = {
     description: 'Jeffrey技术笔记',
     theme: 'vuepress-theme-yilia-plus',
     themeConfig: {
+        yuu: {
+			disableDarkTheme: true,
+		},
         contributors: true,
         contributorsText: '贡献者',
         lastUpdatedText: '上次更新',
