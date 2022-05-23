@@ -11,3 +11,4 @@ features:
   details: 界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。
 # footer: JiaFeng
 ---
+[京ICP备2022014441号](http://beian.miit.gov.cn/)
