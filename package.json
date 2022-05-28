@@ -9,14 +9,18 @@
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
-    "config": "node ./docs/utils/generateConfig.js"
+    "config": "node ./docs/utils/generateConfig.js",
+    "dep": "node ./dep"
   },
   "dependencies": {
     "@vuepress/plugin-active-header-links": "^1.9.7",
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-nprogress": "^1.9.7",
     "@vuepress/plugin-search": "^1.9.7",
+    "chalk": "^4.1.2",
     "element-ui": "^2.15.6",
+    "ora": "^5.1.0",
+    "scp2": "^0.5.0",
     "vue": "^2.2.31",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-demo-container": "^0.2.0",
