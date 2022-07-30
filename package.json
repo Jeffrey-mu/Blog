@@ -10,7 +10,7 @@
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
     "config": "node ./docs/utils/generateConfig.js",
-    "dep": "node ./dep"
+    "dep": "vuepress build docs && node ./dep"
   },
   "dependencies": {
     "@vuepress/plugin-active-header-links": "^1.9.7",
